@@ -217,7 +217,7 @@ def evaluate_request(body: EvaluateRequestInput):
         ]
 
     # Reconstruct ledger
-    ledger = reconstructor.build_ledger(req_id)
+    ledger = reconstructor.build_ledger(req_id, user_id=body.user_id)
 
     # Calculate safe amount today & earliest date
     safe_now = planner.calculate_amount_safe_to_pay(ledger, req_obj.request_date, req_obj.requested_amount)
@@ -236,27 +236,27 @@ def evaluate_request(body: EvaluateRequestInput):
 
     # Run 90-day simulation curve for UI line chart
     winning_candidate = None
-    safe_candidates = [c for c in candidates if c.is_safe]
+    safe_candidates = [c for c in candidates if isinstance(c, dict) and c.get("is_safe", False)]
     if safe_candidates:
         winning_candidate = safe_candidates[0]
 
-    sim_schedule = winning_candidate.payment_schedule if winning_candidate else []
-    sim_changes = winning_candidate.spending_changes if winning_candidate else []
-    sim_result = simulator.simulate_90_days(ledger, req_obj.request_date, sim_schedule, sim_changes)
+    sim_schedule = winning_candidate.get("schedule", []) if winning_candidate else []
+    sim_changes = winning_candidate.get("spending_changes", []) if winning_candidate else []
+    sim_result = simulator.simulate(ledger, req_obj.request_date, sim_schedule, sim_changes)
 
     sim_days = []
-    for day in sim_result.days:
+    for day in sim_result.daily_balances:
         sim_days.append({
             "date": day.date,
             "starting_balance": float(day.starting_balance),
             "income": float(day.income),
-            "pending_debits": float(day.pending_debits),
-            "essential_expenses": float(day.essential_expenses),
-            "flexible_expenses": float(day.flexible_expenses),
-            "request_payments": float(day.request_payments),
+            "pending_debits": 0.0,
+            "essential_expenses": float(day.expenses),
+            "flexible_expenses": 0.0,
+            "request_payments": float(day.payment),
             "ending_balance": float(day.ending_balance),
             "minimum_reserve": float(profile.minimum_balance_to_keep),
-            "is_safe": day.ending_balance >= profile.minimum_balance_to_keep
+            "is_safe": day.is_safe
         })
 
     return {

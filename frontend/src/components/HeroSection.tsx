@@ -1,13 +1,15 @@
 import React from 'react';
-import { ShieldCheck, Calendar, Sparkles, TrendingUp, DollarSign } from 'lucide-react';
+import { ShieldCheck, Calendar, Sparkles, TrendingUp, DollarSign, Grid } from 'lucide-react';
 import type { FinancialProfile } from '../types';
+import type { TabType } from './Sidebar';
 import { formatCurrency } from '../utils/currency';
 
 interface HeroSectionProps {
   profile: FinancialProfile;
+  onSelectTab?: (tab: TabType) => void;
 }
 
-export const HeroSection: React.FC<HeroSectionProps> = ({ profile }) => {
+export const HeroSection: React.FC<HeroSectionProps> = ({ profile, onSelectTab }) => {
   const availableBuffer = Math.max(0, profile.current_available_balance - profile.minimum_balance_to_keep);
 
   return (
@@ -37,6 +39,26 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ profile }) => {
         <p className="text-slate-400 text-base sm:text-lg md:text-xl max-w-3xl mx-auto leading-relaxed font-normal">
           Beyond simple balance checks. Our AI financial agent evaluates recurring salary streams, pending debits, minimum safety reserves, flexible spending, and provider installment plans across a strict 90-day horizon.
         </p>
+
+        {/* Call-to-Action Interactive Buttons */}
+        {onSelectTab && (
+          <div className="flex flex-wrap items-center justify-center gap-4 pt-2">
+            <button
+              onClick={() => onSelectTab('simulator')}
+              className="px-6 py-3 rounded-2xl bg-gradient-to-r from-indigo-600 via-purple-600 to-emerald-500 text-white font-bold text-sm shadow-xl shadow-indigo-600/30 hover:scale-105 active:scale-95 transition-all cursor-pointer flex items-center gap-2"
+            >
+              <Sparkles className="w-4 h-4" />
+              <span>Run AI Affordability Evaluator</span>
+            </button>
+            <button
+              onClick={() => onSelectTab('matrix')}
+              className="px-6 py-3 rounded-2xl bg-slate-900 border border-white/10 text-slate-300 font-semibold text-sm hover:bg-slate-800 hover:text-white transition-all cursor-pointer flex items-center gap-2"
+            >
+              <Grid className="w-4 h-4 text-cyan-400" />
+              <span>Explore Payment Matrix</span>
+            </button>
+          </div>
+        )}
 
         {/* Double-Bezel Metric Cards Grid */}
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 text-left pt-4">

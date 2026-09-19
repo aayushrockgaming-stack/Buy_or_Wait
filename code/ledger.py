@@ -52,10 +52,13 @@ class LedgerReconstructor:
         self.loader = loader
         self.evidence = evidence
 
-    def build_ledger(self, request_id: str) -> CanonicalLedger:
+    def build_ledger(self, request_id: str, user_id: Optional[str] = None) -> CanonicalLedger:
         req = self.loader.get_request(request_id)
-        profile = self.loader.get_profile(req.user_id)
-        events = self.loader.get_user_events(req.user_id)
+        uid = req.user_id if req else (user_id or request_id)
+        profile = self.loader.get_profile(uid)
+        if not profile:
+            raise ValueError(f"Profile for user {uid} not found")
+        events = self.loader.get_user_events(uid)
 
         # 1. Resolve missing amounts and evidence
         resolved_raw = []

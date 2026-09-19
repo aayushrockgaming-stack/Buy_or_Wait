@@ -184,7 +184,7 @@ export function App() {
           onToggleMobileSidebar={() => setIsOpenMobileSidebar(!isOpenMobileSidebar)}
         />
 
-        <HeroSection profile={profile} />
+        <HeroSection profile={profile} onSelectTab={(tab) => setActiveTab(tab)} />
 
         <main className="flex-1 space-y-6 pb-12">
           {activeTab === 'dashboard' && (
