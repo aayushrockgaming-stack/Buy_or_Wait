@@ -8,8 +8,6 @@ import {
   Zap, 
   DollarSign, 
   FileText, 
-  Layout, 
-  Palette,
   Cloud,
   ChevronRight,
   X,
@@ -35,8 +33,6 @@ interface SidebarProps {
   profiles: Record<string, FinancialProfile>;
   onSelectProfile: (id: string) => void;
   onOpenFirebaseDrawer: () => void;
-  onOpenFigmaModal: () => void;
-  onOpenUICanvasModal: () => void;
   isLiveApiConnected: boolean;
   isOpenMobile: boolean;
   onToggleMobile: () => void;
@@ -49,8 +45,6 @@ export const Sidebar: React.FC<SidebarProps> = ({
   profiles,
   onSelectProfile,
   onOpenFirebaseDrawer,
-  onOpenFigmaModal,
-  onOpenUICanvasModal,
   isLiveApiConnected,
   isOpenMobile,
   onToggleMobile
@@ -164,33 +158,11 @@ export const Sidebar: React.FC<SidebarProps> = ({
           </div>
         </div>
 
-        {/* Bottom Utility Tools (Figma, UICanvas, Firebase) */}
+        {/* Bottom Utility Tools (Firebase & Backend Status) */}
         <div className="space-y-2 pt-4 border-t border-white/10">
           <div className="text-[10px] font-bold uppercase tracking-wider text-slate-400 px-1 mb-2">
-            Design & Cloud Tools
+            Cloud & Server Status
           </div>
-
-          <button
-            onClick={onOpenFigmaModal}
-            className="w-full flex items-center justify-between px-3 py-2 rounded-xl bg-purple-950/30 hover:bg-purple-900/40 border border-purple-500/20 text-purple-300 text-xs font-medium transition-all cursor-pointer"
-          >
-            <div className="flex items-center gap-2">
-              <Layout className="w-3.5 h-3.5 text-purple-400" />
-              <span>Figma Specs</span>
-            </div>
-            <span className="text-[10px] text-purple-400 font-mono">4K Comps</span>
-          </button>
-
-          <button
-            onClick={onOpenUICanvasModal}
-            className="w-full flex items-center justify-between px-3 py-2 rounded-xl bg-cyan-950/30 hover:bg-cyan-900/40 border border-cyan-500/20 text-cyan-300 text-xs font-medium transition-all cursor-pointer"
-          >
-            <div className="flex items-center gap-2">
-              <Palette className="w-3.5 h-3.5 text-cyan-400" />
-              <span>UICanvas Studio</span>
-            </div>
-            <span className="text-[10px] text-cyan-400 font-mono">:3200</span>
-          </button>
 
           <button
             onClick={onOpenFirebaseDrawer}

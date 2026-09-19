@@ -13,8 +13,6 @@ import { SavingsPlanner } from './components/SavingsPlanner';
 import { SubscriptionAudit } from './components/SubscriptionAudit';
 import { FirebaseDrawer } from './components/FirebaseDrawer';
 import { EvidenceModal } from './components/EvidenceModal';
-import { FigmaModal } from './components/FigmaModal';
-import { UICanvasModal } from './components/UICanvasModal';
 import { Footer } from './components/Footer';
 
 import { PROFILES, SAMPLE_EVENTS, SAMPLE_OPTIONS, SAMPLE_REQUESTS } from './data/mockData';
@@ -31,8 +29,6 @@ export function App() {
 
   const [isFirebaseDrawerOpen, setIsFirebaseDrawerOpen] = useState<boolean>(false);
   const [isEvidenceModalOpen, setIsEvidenceModalOpen] = useState<boolean>(false);
-  const [isFigmaModalOpen, setIsFigmaModalOpen] = useState<boolean>(false);
-  const [isUICanvasModalOpen, setIsUICanvasModalOpen] = useState<boolean>(false);
   const [isOpenMobileSidebar, setIsOpenMobileSidebar] = useState<boolean>(false);
   const [isLiveApiConnected, setIsLiveApiConnected] = useState<boolean>(false);
 
@@ -175,8 +171,6 @@ export function App() {
         profiles={profiles}
         onSelectProfile={(id) => setCurrentProfileId(id)}
         onOpenFirebaseDrawer={() => setIsFirebaseDrawerOpen(true)}
-        onOpenFigmaModal={() => setIsFigmaModalOpen(true)}
-        onOpenUICanvasModal={() => setIsUICanvasModalOpen(true)}
         isLiveApiConnected={isLiveApiConnected}
         isOpenMobile={isOpenMobileSidebar}
         onToggleMobile={() => setIsOpenMobileSidebar(!isOpenMobileSidebar)}
@@ -283,16 +277,6 @@ export function App() {
         onClose={() => setIsEvidenceModalOpen(false)}
         imageId="image_01"
         imageTitle="Payroll Slip Attachment"
-      />
-
-      <FigmaModal
-        isOpen={isFigmaModalOpen}
-        onClose={() => setIsFigmaModalOpen(false)}
-      />
-
-      <UICanvasModal
-        isOpen={isUICanvasModalOpen}
-        onClose={() => setIsUICanvasModalOpen(false)}
       />
 
     </div>
