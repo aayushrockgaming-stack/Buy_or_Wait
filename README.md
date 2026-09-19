@@ -1,5 +1,14 @@
 # Buy or Wait? — AI Financial Affordability Engine & Web App
 
+[![Live Web App](https://img.shields.io/badge/Live%20App-Render%20Cloud-emerald?style=for-the-badge&logo=render)](https://buy-or-wait-1-g2l0.onrender.com)
+[![FastAPI API](https://img.shields.io/badge/API%20Status-Online%20v2.0-indigo?style=for-the-badge&logo=fastapi)](https://buy-or-wait-1-g2l0.onrender.com/api/health)
+[![Build Status](https://img.shields.io/badge/CI%2FCD-Passing-brightgreen?style=for-the-badge&logo=githubactions)](https://github.com/aayushrockgaming-stack/Buy_or_Wait/actions)
+
+> 🚀 **Live Production Deployment**: [https://buy-or-wait-1-g2l0.onrender.com](https://buy-or-wait-1-g2l0.onrender.com)  
+> 🔗 **Live Backend API**: [https://buy-or-wait-1-g2l0.onrender.com/api/health](https://buy-or-wait-1-g2l0.onrender.com/api/health)
+
+---
+
 ## Overview
 
 This repository contains the **AI Financial Affordability Engine** (*Buy or Wait?*), coupled with a high-end web application interface and optional Firebase integration. The system evaluates user financial requests deterministically to determine affordability over a **90-day forecast horizon**, taking into account current balances, minimum reserve requirements, pending debits/credits, recurring expense streams, exchange rate conversions, and evidence extracted from linked messages and receipts.
