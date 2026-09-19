@@ -14,6 +14,7 @@ export interface EvaluateResponse {
 export const checkBackendHealth = async (): Promise<boolean> => {
   const candidateUrls = [
     import.meta.env.VITE_API_URL,
+    'https://buy-or-wait-1-g2l0.onrender.com/api',
     'http://127.0.0.1:8080/api',
     'http://localhost:8000/api',
     'http://127.0.0.1:8000/api'
