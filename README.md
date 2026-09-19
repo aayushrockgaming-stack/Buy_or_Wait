@@ -1,11 +1,12 @@
 # Buy or Wait? — AI Financial Affordability Engine & Web App
 
-[![Live Web App](https://img.shields.io/badge/Live%20App-Render%20Cloud-emerald?style=for-the-badge&logo=render)](https://buy-or-wait-1-g2l0.onrender.com)
-[![FastAPI API](https://img.shields.io/badge/API%20Status-Online%20v2.0-indigo?style=for-the-badge&logo=fastapi)](https://buy-or-wait-1-g2l0.onrender.com/api/health)
-[![Build Status](https://img.shields.io/badge/CI%2FCD-Passing-brightgreen?style=for-the-badge&logo=githubactions)](https://github.com/aayushrockgaming-stack/Buy_or_Wait/actions)
+[![Live Application Demo](https://img.shields.io/badge/🚀%20OPEN%20LIVE%20APP-Click%20To%20Run-emerald?style=for-the-badge&logo=render)](https://buy-or-wait-1-g2l0.onrender.com)
+[![GitHub Pages Web App](https://img.shields.io/badge/🌐%20GitHub%20Pages%20App-Open%20Web-blue?style=for-the-badge&logo=github)](https://aayushrockgaming-stack.github.io/Buy_or_Wait/)
 
-> 🚀 **Live Production Deployment**: [https://buy-or-wait-1-g2l0.onrender.com](https://buy-or-wait-1-g2l0.onrender.com)  
-> 🔗 **Live Backend API**: [https://buy-or-wait-1-g2l0.onrender.com/api/health](https://buy-or-wait-1-g2l0.onrender.com/api/health)
+### 🔗 Master Single Live Application Link:
+👉 **[https://buy-or-wait-1-g2l0.onrender.com](https://buy-or-wait-1-g2l0.onrender.com)**
+
+*(Clicking the link above runs the complete interactive AI Financial Affordability Web Application in your browser)*
 
 ---
 
