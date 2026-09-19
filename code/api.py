@@ -6,6 +6,7 @@ from typing import Optional, List, Dict, Any
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
 from pydantic import BaseModel
 
 # Ensure code directory and repo root are in path
@@ -23,8 +24,8 @@ from code.payment_planner import PaymentPlanner
 from code.decision_engine import DecisionEngine
 
 app = FastAPI(
-    title="Buy or Wait? — AI Financial Affordability API Engine",
-    description="Real-time 90-day financial forecasting & affordability decision engine API",
+    title="Buy or Wait? — AI Financial Affordability Platform",
+    description="Real-time 90-day financial forecasting & affordability decision engine platform",
     version="2.0.0"
 )
 
@@ -41,6 +42,11 @@ app.add_middleware(
 images_dir = repo_root / "dataset" / "media" / "images"
 if images_dir.exists():
     app.mount("/media/images", StaticFiles(directory=str(images_dir)), name="images")
+
+# Serve frontend build static assets if present
+frontend_dist = repo_root / "frontend" / "dist"
+if (frontend_dist / "assets").exists():
+    app.mount("/assets", StaticFiles(directory=str(frontend_dist / "assets")), name="assets")
 
 # Global engine instances
 dataset_dir = repo_root / "dataset"
@@ -266,6 +272,29 @@ def evaluate_request(body: EvaluateRequestInput):
         "simulation": sim_days,
         "candidates_evaluated": len(candidates)
     }
+
+@app.get("/")
+def serve_root():
+    if frontend_dist.exists() and (frontend_dist / "index.html").exists():
+        return FileResponse(frontend_dist / "index.html")
+    return {
+        "status": "online",
+        "engine": "Buy or Wait? V2 Deterministic Simulator",
+        "message": "FastAPI Engine Online. Frontend build will be served here once generated."
+    }
+
+@app.get("/{full_path:path}")
+def serve_spa(full_path: str):
+    if full_path.startswith("api"):
+        raise HTTPException(status_code=404, detail="API route not found")
+    if frontend_dist.exists():
+        file_path = frontend_dist / full_path
+        if file_path.exists() and file_path.is_file():
+            return FileResponse(file_path)
+        index_path = frontend_dist / "index.html"
+        if index_path.exists():
+            return FileResponse(index_path)
+    raise HTTPException(status_code=404, detail="Not Found")
 
 if __name__ == "__main__":
     import uvicorn
