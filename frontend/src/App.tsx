@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import { Sidebar, type TabType } from './components/Sidebar';
 import { Navbar } from './components/Navbar';
 import { HeroSection } from './components/HeroSection';
@@ -279,6 +280,7 @@ export function App() {
         imageTitle="Payroll Slip Attachment"
       />
 
+      <SpeedInsights />
     </div>
   );
 }
