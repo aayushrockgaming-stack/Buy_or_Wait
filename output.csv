@@ -1,0 +1,251 @@
+request_id,amount_safe_to_pay,affordability_status,recommended_payment_method,payment_plan,earliest_date_for_full_payment,spending_changes_needed,decision_explanation
+request_26,15655999.99,affordable_now,full_payment,2025-08-03:15656000.00,2025-08-03,none,Recommended full_payment based on financial safety and preferences.
+request_27,6670.00,affordable_now,full_payment,2026-07-05:6670.00,2026-07-05,none,Recommended full_payment based on financial safety and preferences.
+request_28,311.31,not_affordable,not_recommended,none,2024-06-15,none,No safe payment plan found within the 90-day horizon.
+request_29,51524.00,affordable_now,full_payment,2025-11-04:51524.00,2025-11-04,none,Recommended full_payment based on financial safety and preferences.
+request_30,775.20,affordable_with_plan,installments,2026-04-06:268.74|2026-05-06:268.74|2026-06-05:268.74,2026-04-06,none,Recommended installments based on financial safety and preferences.
+request_31,1875971.99,not_affordable,not_recommended,none,2024-09-15,none,No safe payment plan found within the 90-day horizon.
+request_32,12840.42,not_affordable,not_recommended,none,2025-04-15,none,No safe payment plan found within the 90-day horizon.
+request_33,17087.00,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_34,129400.00,affordable_now,full_payment,2024-12-04:129400.00,2024-12-04,none,Recommended full_payment based on financial safety and preferences.
+request_35,1898.35,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_36,467.71,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_37,3977555.38,not_affordable,not_recommended,none,2024-04-15,none,No safe payment plan found within the 90-day horizon.
+request_38,182.82,not_affordable,not_recommended,none,2025-10-15,none,No safe payment plan found within the 90-day horizon.
+request_39,43667.63,not_affordable,not_recommended,none,2026-04-15,none,No safe payment plan found within the 90-day horizon.
+request_40,0.00,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_41,4088517.69,not_affordable,not_recommended,none,2025-11-15,none,No safe payment plan found within the 90-day horizon.
+request_42,52100.00,affordable_now,full_payment,2026-01-05:52100.00,2026-01-05,none,Recommended full_payment based on financial safety and preferences.
+request_43,6980767.42,not_affordable,not_recommended,none,2024-09-15,none,No safe payment plan found within the 90-day horizon.
+request_44,0.00,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_45,1811950.89,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_46,24571.57,affordable_with_plan,partial_payment,2024-12-03:24571.57|2024-12-15:24878.43,2024-12-15,none,Recommended partial_payment based on financial safety and preferences.
+request_47,38113999.96,affordable_now,full_payment,2025-05-05:38114000.00,2025-05-05,none,Recommended full_payment based on financial safety and preferences.
+request_48,45700.00,affordable_now,full_payment,2026-07-25:45700.00,2026-07-25,none,Recommended full_payment based on financial safety and preferences.
+request_49,0.00,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_50,43900.00,affordable_now,full_payment,2025-08-06:43900.00,2025-08-06,none,Recommended full_payment based on financial safety and preferences.
+request_51,2191000.00,affordable_now,full_payment,2026-01-03:2191000.00,2026-01-03,none,Recommended full_payment based on financial safety and preferences.
+request_52,18573.87,not_affordable,not_recommended,none,2024-06-15,none,No safe payment plan found within the 90-day horizon.
+request_53,477.89,not_affordable,not_recommended,none,2026-01-15,none,No safe payment plan found within the 90-day horizon.
+request_54,0.00,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_55,7201.03,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_56,524.86,affordable_with_plan,partial_payment,2025-02-03:524.86|2025-02-15:356.70,2025-02-15,none,Recommended partial_payment based on financial safety and preferences.
+request_57,3318.23,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_58,16225999.98,affordable_now,full_payment,2024-12-07:16226000.00,2024-12-07,none,Recommended full_payment based on financial safety and preferences.
+request_59,140600.00,affordable_with_plan,installments,2025-05-07:48741.33|2025-06-04:48741.33|2025-07-02:48741.33,2025-05-04,none,Recommended installments based on financial safety and preferences.
+request_60,0.00,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_61,29062.00,affordable_with_plan,installments,2024-03-17:10074.83|2024-04-17:10074.83|2024-05-18:10074.83,2024-03-03,none,Recommended installments based on financial safety and preferences.
+request_62,404.23,affordable_now,full_payment,2025-08-05:404.23,2025-08-05,none,Recommended full_payment based on financial safety and preferences.
+request_63,38538.47,affordable_with_plan,partial_payment,2026-07-07:38538.47|2026-08-15:305361.53,2026-08-15,none,Recommended partial_payment based on financial safety and preferences.
+request_64,41127.65,not_affordable,not_recommended,none,2024-08-15,none,No safe payment plan found within the 90-day horizon.
+request_65,4646.20,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_66,22200.00,affordable_now,full_payment,2026-04-03:22200.00,2026-04-03,none,Recommended full_payment based on financial safety and preferences.
+request_67,211.88,not_affordable,not_recommended,none,2024-10-15,none,No safe payment plan found within the 90-day horizon.
+request_68,1207.60,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_69,165.22,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_70,59952.21,not_affordable,not_recommended,none,2025-02-15,none,No safe payment plan found within the 90-day horizon.
+request_71,0.00,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_72,8572.61,affordable_with_plan,full_payment,2026-07-05:11330.00,2026-09-15,stop:event_6741|stop:event_6749,Recommended full_payment based on financial safety and preferences.
+request_73,71400.00,affordable_now,full_payment,2023-01-20:71400.00,2023-01-20,none,Recommended full_payment based on financial safety and preferences.
+request_74,5010.00,affordable_now,full_payment,2025-08-04:5010.00,2025-08-04,none,Recommended full_payment based on financial safety and preferences.
+request_75,28270.00,affordable_with_plan,installments,2026-04-09:9800.27|2026-05-09:9800.27|2026-06-08:9800.27,2026-04-06,none,Recommended installments based on financial safety and preferences.
+request_76,0.00,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_77,49144.50,not_affordable,not_recommended,none,2026-01-15,none,No safe payment plan found within the 90-day horizon.
+request_78,44194.59,not_affordable,not_recommended,none,2025-10-15,none,No safe payment plan found within the 90-day horizon.
+request_79,68.73,affordable_with_plan,partial_payment,2024-09-04:68.73|2024-10-15:2082.87,2024-10-15,none,Recommended partial_payment based on financial safety and preferences.
+request_80,96530.36,not_affordable,not_recommended,none,2025-04-15,none,No safe payment plan found within the 90-day horizon.
+request_81,1350.22,not_affordable,not_recommended,none,2026-09-15,none,No safe payment plan found within the 90-day horizon.
+request_82,91.32,not_affordable,not_recommended,none,2025-02-15,none,No safe payment plan found within the 90-day horizon.
+request_83,2667.71,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_84,28563.39,not_affordable,not_recommended,none,2026-06-15,none,No safe payment plan found within the 90-day horizon.
+request_85,515679.41,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_86,42883.38,affordable_with_plan,full_payment,2025-08-03:46300.00,2025-08-15,stop:event_8084,Recommended full_payment based on financial safety and preferences.
+request_87,0.00,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_88,10497.62,affordable_with_plan,installments,2024-06-14:9045.23|2024-07-15:9045.23|2024-08-15:9045.23,2024-07-15,none,Recommended installments based on financial safety and preferences.
+request_89,9503333.00,affordable_with_plan,installments,2025-11-18:4768746.67|2025-12-16:4768746.67|2026-01-13:4768746.67,2025-11-15,none,Recommended installments based on financial safety and preferences.
+request_90,2560.00,affordable_now,full_payment,2026-07-06:2560.00,2026-07-06,none,Recommended full_payment based on financial safety and preferences.
+request_91,0.00,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_92,34034.00,affordable_now,full_payment,2025-02-05:34034.00,2025-02-05,none,Recommended full_payment based on financial safety and preferences.
+request_93,1729.20,affordable_now,full_payment,2026-04-07:1729.20,2026-04-07,none,Recommended full_payment based on financial safety and preferences.
+request_94,572.00,affordable_now,full_payment,2024-12-04:572.00,2024-12-04,none,Recommended full_payment based on financial safety and preferences.
+request_95,42481.43,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_96,65426.08,affordable_with_plan,installments,2026-01-10:31269.33|2026-02-09:31269.33|2026-03-11:31269.33,2026-01-15,none,Recommended installments based on financial safety and preferences.
+request_97,2929.44,affordable_with_plan,installments,2024-03-19:8145.28|2024-04-19:8145.28|2024-05-20:8145.28,2024-03-15,none,Recommended installments based on financial safety and preferences.
+request_98,0.00,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_99,17268.94,affordable_with_plan,full_payment,2026-07-04:18062.00,2026-07-15,stop:event_9230,Recommended full_payment based on financial safety and preferences.
+request_100,20740.88,affordable_with_plan,installments,2024-06-13:12866.19|2024-07-14:12866.19|2024-08-14:12866.19,2024-06-15,none,Recommended installments based on financial safety and preferences.
+request_101,143500.00,affordable_now,full_payment,2025-11-03:143500.00,2025-11-03,none,Recommended full_payment based on financial safety and preferences.
+request_102,1716.00,affordable_with_plan,installments,2026-04-05:594.88|2026-05-05:594.88|2026-06-04:594.88,2026-04-05,none,Recommended installments based on financial safety and preferences.
+request_103,0.00,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_104,17204.00,affordable_now,full_payment,2025-02-04:17204.00,2025-02-04,none,Recommended full_payment based on financial safety and preferences.
+request_105,0.00,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_106,268.25,not_affordable,not_recommended,none,2024-12-15,none,No safe payment plan found within the 90-day horizon.
+request_107,0.00,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_108,3835.72,not_affordable,not_recommended,none,2026-09-24,none,No safe payment plan found within the 90-day horizon.
+request_109,727.53,affordable_with_plan,installments,2024-03-18:645.98|2024-04-18:645.98|2024-05-19:645.98,2024-03-15,none,Recommended installments based on financial safety and preferences.
+request_110,22352.00,affordable_with_plan,installments,2025-08-06:7748.69|2025-09-03:7748.69|2025-10-01:7748.69,2025-08-06,none,Recommended installments based on financial safety and preferences.
+request_111,16624999.98,affordable_now,full_payment,2026-04-03:16625000.00,2026-04-03,none,Recommended full_payment based on financial safety and preferences.
+request_112,93.37,not_affordable,not_recommended,none,2024-08-15,none,No safe payment plan found within the 90-day horizon.
+request_113,0.00,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_114,0.00,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_115,14552.20,not_affordable,not_recommended,none,2024-11-15,none,No safe payment plan found within the 90-day horizon.
+request_116,0.00,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_117,809.84,affordable_with_plan,full_payment,2026-07-05:880.00,2026-07-15,stop:event_10869|stop:event_10878,Recommended full_payment based on financial safety and preferences.
+request_118,585.55,affordable_with_plan,installments,2024-12-07:255.87|2025-01-07:255.87|2025-02-07:255.87,2024-12-15,none,Recommended installments based on financial safety and preferences.
+request_119,52590.73,not_affordable,not_recommended,none,2025-07-15,none,No safe payment plan found within the 90-day horizon.
+request_120,7713999.99,affordable_now,full_payment,2026-04-06:7714000.00,2026-04-06,none,Recommended full_payment based on financial safety and preferences.
+request_121,633.60,affordable_now,full_payment,2024-03-03:633.60,2024-03-03,none,Recommended full_payment based on financial safety and preferences.
+request_122,20557999.98,affordable_with_plan,installments,2025-08-05:7126773.33|2025-09-02:7126773.33|2025-09-30:7126773.33,2025-08-05,none,Recommended installments based on financial safety and preferences.
+request_123,4076000.00,affordable_now,full_payment,2026-01-07:4076000.00,2026-01-07,none,Recommended full_payment based on financial safety and preferences.
+request_124,1406.49,affordable_with_plan,installments,2024-06-11:1076.12|2024-07-12:1076.12|2024-08-12:1076.12,2024-06-15,none,Recommended installments based on financial safety and preferences.
+request_125,0.00,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_126,159600.00,affordable_now,full_payment,2026-07-03:159600.00,2026-07-03,none,Recommended full_payment based on financial safety and preferences.
+request_127,0.00,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_128,25168.00,affordable_now,full_payment,2025-02-07:25168.00,2025-02-07,none,Recommended full_payment based on financial safety and preferences.
+request_129,76.28,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_130,0.00,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_131,1279.19,not_affordable,not_recommended,none,2025-07-15,none,No safe payment plan found within the 90-day horizon.
+request_132,0.00,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_133,15769999.99,not_affordable,not_recommended,none,2024-03-07,none,No safe payment plan found within the 90-day horizon.
+request_134,3120633.15,not_affordable,not_recommended,none,2025-08-15,none,No safe payment plan found within the 90-day horizon.
+request_135,292.57,affordable_with_plan,full_payment,2026-07-06:304.80,2026-07-15,stop:event_12449,Recommended full_payment based on financial safety and preferences.
+request_136,506.39,affordable_with_plan,full_payment,2024-06-03:560.40,2024-06-15,stop:event_12498,Recommended full_payment based on financial safety and preferences.
+request_137,18517.00,not_affordable,not_recommended,none,2026-01-15,none,No safe payment plan found within the 90-day horizon.
+request_138,553.34,affordable_with_plan,partial_payment,2026-04-07:553.34|2026-04-15:703.60,2026-04-15,none,Recommended partial_payment based on financial safety and preferences.
+request_139,986.89,affordable_with_plan,installments,2024-09-07:802.88|2024-10-08:802.88|2024-11-08:802.88,2024-09-15,none,Recommended installments based on financial safety and preferences.
+request_140,0.00,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_141,22858.32,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_142,1263.60,affordable_now,full_payment,2024-12-05:1263.60,2024-12-05,none,Recommended full_payment based on financial safety and preferences.
+request_143,0.00,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_144,0.00,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_145,37506.16,affordable_with_plan,installments,2024-03-20:75365.33|2024-04-20:75365.33|2024-05-21:75365.33,2024-03-15,none,Recommended installments based on financial safety and preferences.
+request_146,3141.93,not_affordable,not_recommended,none,2025-10-15,none,No safe payment plan found within the 90-day horizon.
+request_147,247.66,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_148,6109.04,affordable_with_plan,installments,2024-06-14:7710.56|2024-07-15:7710.56|2024-08-15:7710.56,2024-07-15,stop:event_13594,Recommended installments based on financial safety and preferences.
+request_149,21312.67,affordable_with_plan,installments,2025-11-18:12706.03|2025-12-16:12706.03|2026-01-13:12706.03,2025-11-15,none,Recommended installments based on financial safety and preferences.
+request_150,0.00,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_151,26998999.97,affordable_now,full_payment,2024-09-03:26999000.00,2024-09-03,none,Recommended full_payment based on financial safety and preferences.
+request_152,3490.78,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_153,0.00,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_154,1625.80,affordable_with_plan,installments,2024-12-04:563.61|2025-01-04:563.61|2025-02-04:563.61,2024-12-04,none,Recommended installments based on financial safety and preferences.
+request_155,112500.00,affordable_now,full_payment,2025-05-06:112500.00,2025-05-06,none,Recommended full_payment based on financial safety and preferences.
+request_156,6959.05,not_affordable,not_recommended,none,2026-06-15,none,No safe payment plan found within the 90-day horizon.
+request_157,2630676.12,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_158,242600.00,affordable_with_plan,installments,2025-08-07:84101.33|2025-09-04:84101.33|2025-10-02:84101.33,2025-08-07,none,Recommended installments based on financial safety and preferences.
+request_159,13398.00,affordable_now,full_payment,2026-01-04:13398.00,2026-01-04,none,Recommended full_payment based on financial safety and preferences.
+request_160,417.85,not_affordable,not_recommended,none,2024-06-15,none,No safe payment plan found within the 90-day horizon.
+request_161,0.00,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_162,1446184.58,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_163,2451298.74,not_affordable,not_recommended,none,2024-11-15,none,No safe payment plan found within the 90-day horizon.
+request_164,26551147.62,affordable_with_plan,installments,2025-02-11:9366240.00|2025-03-11:9366240.00|2025-04-08:9366240.00,2025-02-15,none,Recommended installments based on financial safety and preferences.
+request_165,80600.00,affordable_now,full_payment,2026-04-06:80600.00,2026-04-06,none,Recommended full_payment based on financial safety and preferences.
+request_166,2907.60,affordable_with_plan,installments,2024-12-03:1007.97|2025-01-03:1007.97|2025-02-03:1007.97,2024-12-03,none,Recommended installments based on financial safety and preferences.
+request_167,10581.89,affordable_with_plan,installments,2025-05-19:7884.36|2025-06-19:7884.36|2025-07-20:7884.36|2025-08-20:7884.36|2025-09-20:7884.36|2025-10-21:7884.36,,stop:event_15286,Recommended installments based on financial safety and preferences.
+request_168,0.00,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_169,41976.00,affordable_now,full_payment,2024-03-04:41976.00,2024-03-04,none,Recommended full_payment based on financial safety and preferences.
+request_170,24805138.08,not_affordable,not_recommended,none,2025-10-15,none,No safe payment plan found within the 90-day horizon.
+request_171,0.00,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_172,7462.41,affordable_with_plan,partial_payment,2024-06-05:7462.41|2024-07-15:2737.59,2024-07-15,none,Recommended partial_payment based on financial safety and preferences.
+request_173,70005.94,affordable_with_plan,installments,2025-11-21:39173.33|2025-12-19:39173.33|2026-01-16:39173.33,2025-11-15,none,Recommended installments based on financial safety and preferences.
+request_174,1146.20,affordable_with_plan,installments,2026-04-04:397.35|2026-05-04:397.35|2026-06-03:397.35,2026-04-04,none,Recommended installments based on financial safety and preferences.
+request_175,2119.51,not_affordable,not_recommended,none,2024-11-15,none,No safe payment plan found within the 90-day horizon.
+request_176,412.86,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_177,362.88,affordable_with_plan,full_payment,2026-01-05:1017.60,,stop:event_16307|stop:event_16317,Recommended full_payment based on financial safety and preferences.
+request_178,2938.10,affordable_with_plan,installments,2024-12-07:1018.54|2025-01-07:1018.54|2025-02-07:1018.54,2024-12-07,none,Recommended installments based on financial safety and preferences.
+request_179,6786617.93,not_affordable,not_recommended,none,2025-07-15,none,No safe payment plan found within the 90-day horizon.
+request_180,58115.88,affordable_with_plan,full_payment,2026-07-06:66500.00,2026-09-15,stop:event_16587,Recommended full_payment based on financial safety and preferences.
+request_181,232.08,not_affordable,not_recommended,none,2024-05-15,none,No safe payment plan found within the 90-day horizon.
+request_182,65714.00,affordable_now,full_payment,2025-08-05:65714.00,2025-08-05,none,Recommended full_payment based on financial safety and preferences.
+request_183,11509858.98,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_184,7179.85,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_185,238.29,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_186,0.00,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_187,38510.57,not_affordable,not_recommended,none,2024-09-15,none,No safe payment plan found within the 90-day horizon.
+request_188,0.00,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_189,488.40,affordable_now,full_payment,2026-07-04:488.40,2026-07-04,none,Recommended full_payment based on financial safety and preferences.
+request_190,346.62,not_affordable,not_recommended,none,2024-12-15,none,No safe payment plan found within the 90-day horizon.
+request_191,664.40,affordable_now,full_payment,2025-05-03:664.40,2025-05-03,none,Recommended full_payment based on financial safety and preferences.
+request_192,220.45,not_affordable,not_recommended,none,2026-04-24,none,No safe payment plan found within the 90-day horizon.
+request_193,0.00,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_194,34703.75,not_affordable,not_recommended,none,2025-10-15,none,No safe payment plan found within the 90-day horizon.
+request_195,0.00,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_196,762.30,affordable_now,full_payment,2024-06-03:762.30,2024-06-03,none,Recommended full_payment based on financial safety and preferences.
+request_197,0.00,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_198,185800.00,affordable_now,full_payment,2026-07-07:185800.00,2026-07-07,none,Recommended full_payment based on financial safety and preferences.
+request_199,23673999.98,affordable_with_plan,installments,2024-09-07:8206986.67|2024-10-08:8206986.67|2024-11-08:8206986.67,2024-09-04,none,Recommended installments based on financial safety and preferences.
+request_200,21716999.98,affordable_now,full_payment,2025-02-06:21717000.00,2025-02-06,none,Recommended full_payment based on financial safety and preferences.
+request_201,23996999.98,affordable_now,full_payment,2026-04-03:23997000.00,2026-04-03,none,Recommended full_payment based on financial safety and preferences.
+request_202,123900.00,affordable_now,full_payment,2024-12-05:123900.00,2024-12-05,none,Recommended full_payment based on financial safety and preferences.
+request_203,1442.10,affordable_with_plan,installments,2025-05-10:499.93|2025-06-07:499.93|2025-07-05:499.93,2025-05-07,none,Recommended installments based on financial safety and preferences.
+request_204,74.72,not_affordable,not_recommended,none,2026-03-15,none,No safe payment plan found within the 90-day horizon.
+request_205,10620999.99,affordable_now,full_payment,2024-03-06:10621000.00,2024-03-06,none,Recommended full_payment based on financial safety and preferences.
+request_206,1404.70,affordable_with_plan,installments,2025-08-03:486.96|2025-08-31:486.96|2025-09-28:486.96,2025-08-03,none,Recommended installments based on financial safety and preferences.
+request_207,5301.56,not_affordable,not_recommended,none,2026-07-15,none,No safe payment plan found within the 90-day horizon.
+request_208,3330561.69,not_affordable,not_recommended,none,2024-06-15,none,No safe payment plan found within the 90-day horizon.
+request_209,1161.25,not_affordable,not_recommended,none,2025-12-15,none,No safe payment plan found within the 90-day horizon.
+request_210,675.48,affordable_with_plan,partial_payment,2026-04-06:675.48|2026-04-15:684.54,2026-04-15,none,Recommended partial_payment based on financial safety and preferences.
+request_211,0.00,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_212,0.00,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_213,3362.40,affordable_with_plan,installments,2026-01-21:1165.63|2026-02-20:1165.63|2026-03-22:1165.63,2026-01-07,none,Recommended installments based on financial safety and preferences.
+request_214,46290.72,affordable_with_plan,partial_payment,2024-12-04:46290.72|2024-12-15:23459.28,2024-12-15,none,Recommended partial_payment based on financial safety and preferences.
+request_215,29986.00,affordable_with_plan,installments,2025-05-09:10395.15|2025-06-06:10395.15|2025-07-04:10395.15,2025-05-06,none,Recommended installments based on financial safety and preferences.
+request_216,249.83,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_217,18981.84,affordable_with_plan,installments,2024-03-19:12889.07|2024-04-19:12889.07|2024-05-20:12889.07,2024-03-15,none,Recommended installments based on financial safety and preferences.
+request_218,23276117.12,affordable_with_plan,installments,2025-08-07:21195893.33|2025-09-04:21195893.33|2025-10-02:21195893.33,2025-08-15,none,Recommended installments based on financial safety and preferences.
+request_219,631.39,not_affordable,not_recommended,none,2026-06-15,none,No safe payment plan found within the 90-day horizon.
+request_220,0.00,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_221,109800.00,affordable_now,full_payment,2025-11-03:109800.00,2025-11-03,none,Recommended full_payment based on financial safety and preferences.
+request_222,34078.00,affordable_now,full_payment,2026-01-05:34078.00,2026-01-05,none,Recommended full_payment based on financial safety and preferences.
+request_223,898.70,affordable_now,full_payment,2024-09-07:898.70,2024-09-07,none,Recommended full_payment based on financial safety and preferences.
+request_224,172973.17,not_affordable,not_recommended,none,2025-04-15,none,No safe payment plan found within the 90-day horizon.
+request_225,10262430.34,affordable_with_plan,installments,2026-07-20:7647120.00|2026-08-19:7647120.00|2026-09-18:7647120.00,2026-09-15,stop:event_20649,Recommended installments based on financial safety and preferences.
+request_226,157000.00,affordable_now,full_payment,2024-12-03:157000.00,2024-12-03,none,Recommended full_payment based on financial safety and preferences.
+request_227,3809.22,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_228,0.00,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_229,291.95,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_230,3537.60,affordable_now,full_payment,2025-08-06:3537.60,2025-08-06,none,Recommended full_payment based on financial safety and preferences.
+request_231,29161.63,affordable_with_plan,installments,2026-01-06:12378.08|2026-02-05:12378.08|2026-03-07:12378.08,2026-01-15,none,Recommended installments based on financial safety and preferences.
+request_232,200.85,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_233,0.00,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_234,120.31,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_235,967.20,affordable_now,full_payment,2024-09-06:967.20,2024-09-06,none,Recommended full_payment based on financial safety and preferences.
+request_236,6081340.67,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_237,23825999.98,affordable_now,full_payment,2026-04-05:23826000.00,2026-04-05,none,Recommended full_payment based on financial safety and preferences.
+request_238,663.60,affordable_with_plan,installments,2024-12-07:230.05|2025-01-07:230.05|2025-02-07:230.05,2024-12-07,stop:event_21888,Recommended installments based on financial safety and preferences.
+request_239,642.00,affordable_now,full_payment,2025-05-04:642.00,2025-05-04,none,Recommended full_payment based on financial safety and preferences.
+request_240,8547.96,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_241,21051999.98,affordable_with_plan,installments,2024-03-17:7298026.67|2024-04-17:7298026.67|2024-05-18:7298026.67,2024-03-03,none,Recommended installments based on financial safety and preferences.
+request_242,0.00,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_243,17468.00,affordable_now,full_payment,2026-07-07:17468.00,2026-07-07,none,Recommended full_payment based on financial safety and preferences.
+request_244,49918.00,affordable_now,full_payment,2024-06-04:49918.00,2024-06-04,none,Recommended full_payment based on financial safety and preferences.
+request_245,14817.45,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_246,64086.00,affordable_with_plan,installments,2026-04-03:22216.48|2026-05-03:22216.48|2026-06-02:22216.48,2026-04-03,none,Recommended installments based on financial safety and preferences.
+request_247,1059.30,affordable_now,full_payment,2024-09-05:1059.30,2024-09-05,none,Recommended full_payment based on financial safety and preferences.
+request_248,966.71,affordable_with_plan,partial_payment,2025-02-07:966.71|2025-04-15:998.89,2025-04-15,none,Recommended partial_payment based on financial safety and preferences.
+request_249,0.00,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_250,17762.28,affordable_with_plan,partial_payment,2024-12-06:17762.28|2025-01-15:106515.72,2025-01-15,none,Recommended partial_payment based on financial safety and preferences.
+request_251,1513.60,not_affordable,not_recommended,none,2025-05-03,none,No safe payment plan found within the 90-day horizon.
+request_252,3087356.55,not_affordable,not_recommended,none,2026-09-15,none,No safe payment plan found within the 90-day horizon.
+request_253,0.00,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_254,690.15,not_affordable,not_recommended,none,2025-10-15,none,No safe payment plan found within the 90-day horizon.
+request_255,3345000.00,affordable_now,full_payment,2026-04-06:3345000.00,2026-04-06,none,Recommended full_payment based on financial safety and preferences.
+request_256,146019.50,affordable_with_plan,installments,2024-06-10:75816.00|2024-07-11:75816.00|2024-08-11:75816.00,2024-08-15,stop:event_23546|stop:event_23553,Recommended installments based on financial safety and preferences.
+request_257,275.15,not_affordable,not_recommended,none,2025-11-15,none,No safe payment plan found within the 90-day horizon.
+request_258,1113.60,affordable_now,full_payment,2026-01-07:1113.60,2026-01-07,none,Recommended full_payment based on financial safety and preferences.
+request_259,219.65,not_affordable,not_recommended,none,2024-11-15,none,No safe payment plan found within the 90-day horizon.
+request_260,7350122.02,affordable_with_plan,partial_payment,2025-02-06:7350122.02|2025-03-15:44728877.98,2025-03-15,none,Recommended partial_payment based on financial safety and preferences.
+request_261,1830.40,affordable_now,full_payment,2026-07-03:1830.40,2026-07-03,none,Recommended full_payment based on financial safety and preferences.
+request_262,9235999.99,affordable_now,full_payment,2024-12-05:9236000.00,2024-12-05,none,Recommended full_payment based on financial safety and preferences.
+request_263,3570.66,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_264,23012.52,not_affordable,not_recommended,none,2026-06-15,none,No safe payment plan found within the 90-day horizon.
+request_265,45970.00,affordable_now,full_payment,2024-03-06:45970.00,2024-03-06,none,Recommended full_payment based on financial safety and preferences.
+request_266,165.52,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_267,1655.79,affordable_with_plan,installments,2026-01-08:667.33|2026-02-07:667.33|2026-03-09:667.33,2026-02-15,none,Recommended installments based on financial safety and preferences.
+request_268,981.40,affordable_with_plan,installments,2024-06-14:841.22|2024-07-15:841.22|2024-08-15:841.22,2024-07-15,none,Recommended installments based on financial safety and preferences.
+request_269,0.00,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_270,106.85,not_affordable,not_recommended,none,2026-08-15,none,No safe payment plan found within the 90-day horizon.
+request_271,0.00,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_272,5649202.87,affordable_with_plan,installments,2025-02-12:4709466.67|2025-03-12:4709466.67|2025-04-09:4709466.67,2025-03-15,none,Recommended installments based on financial safety and preferences.
+request_273,9476871.09,affordable_with_plan,partial_payment,2026-04-07:9476871.09|2026-04-15:6384128.91,2026-04-15,none,Recommended partial_payment based on financial safety and preferences.
+request_274,0.00,not_affordable,not_recommended,none,,none,No safe payment plan found within the 90-day horizon.
+request_275,15577326.75,affordable_with_plan,full_payment,2025-05-06:15884000.00,2025-07-15,stop:event_25301,Recommended full_payment based on financial safety and preferences.
